@@ -55,7 +55,6 @@ Each row in the dataset represents a customer and includes:
   * `maxDepth`: \[2, 4, 6]
   * `maxBins`: \[20, 30]
   * `maxIter`: \[10, 20]
-* **Evaluation Metric:** Area Under ROC Curve (AUC)
 
 ```python
 GBTClassifier(maxIter=10, featuresCol="features", labelCol="label")
